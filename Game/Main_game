@@ -1,0 +1,13 @@
+print "*****Welcome to | -- HIGH /LOW -- | game*****" # it is just intro duction to the game
+import random
+x = random.randint(0,100)
+a = int(raw_input("Enter your number:"))
+if a < x:
+    print "Too Low"
+    a = int(raw_input("Enter your number:"))
+elif a > x:
+    print "Too High"
+    a = int(raw_input("Enter your number:"))
+else:
+   print'  \ /  |* *|    |  |       \     /    |   |\  |'
+   print'  /     |__|    |__|         \/\/     |   |  \|'
