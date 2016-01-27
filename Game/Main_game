@@ -13,5 +13,5 @@ while stat != 1 :
 	else:
 		stat = 1   
 
-print'  \ /  |* *|    |  |       \     /    |   |\  |'   # It is shown as the number  entered is exact to the random number
-print'  /     |__|    |__|         \/\/     |   |  \|'
+print'  \ /   |**|    |  |        \    /    |   |\  |'   # It is shown as the number  entered is exact to the random number
+print'   /    |__|    |__|         \/\/     |   |  \|'
